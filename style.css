@@ -185,7 +185,12 @@ button:hover {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-left: 20px;
+
   /* border: 2px solid green; */
+}
+.header-1 {
+  margin-bottom: 10px;
 }
 .header-2 {
   margin-top: -50px;
@@ -196,7 +201,19 @@ button:hover {
 .left {
   display: flex;
   gap: 8px;
-  margin-left: 30px;
+  margin-left: 70px;
+  align-items: center;
+}
+.header-2 > .left-1 > .text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.73);
+  font-weight: 700;
+  margin-bottom: -12px;
+}
+.header-2 > .left-1 > .heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
 }
 .left-2 {
   display: flex;
@@ -323,4 +340,9 @@ button:hover {
 }
 .trending > .txt-trending > div > .heading {
   font-weight: 400;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }

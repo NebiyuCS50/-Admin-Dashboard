@@ -330,6 +330,7 @@ button:hover {
 .txt-trending {
   display: flex;
   gap: 1rem;
+  margin: 10px;
   flex-wrap: wrap;
   margin-left: 20px;
   align-items: center;
